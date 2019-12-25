@@ -7,51 +7,57 @@ typedef struct node{
 	struct node *next;	
 }Node;
 
-Node* head = NULL;
+Node *start=NULL;
 
-void insertAtBeginning(int data)
+void create()
 {
-	Node* temp=(Node *)malloc(sizeof(Node));
-		
-    temp->data=data;
-    temp->next=NULL;
+        Node *temp,*ptr;
+        temp=(Node *)malloc(sizeof(Node));
+        
+        if(temp==NULL){
+                printf("\nOut of Memory Space:\n");
+                exit(0);
+        }
 
-    if(head==NULL)
-            head=temp;
-    
-    else{
-            while(head->next){
-                    head=head->next ;
-            }
-            head->next =temp;
-    }
+        scanf("%d",&temp->data);
+        temp->next=NULL;
+        
+        if(start==NULL)
+                start=temp;
+        
+        else{
+                ptr=start;
+                while(ptr->next){
+                        ptr=ptr->next;
+                }
+                ptr->next=temp;
+        }
 }
 
 void display(){
-
-	Node *temp= head;
-	while(temp->next){
-			printf("%d -> ",temp->data);
-			temp=temp->next; 
+    Node *ptr = start;
+	while(ptr->next){
+			printf("%d -> ",ptr->data);
+			ptr=ptr->next; 
 		}
-        printf("%d -> NULL",temp->data);	
+        printf("%d -> NULL\n",ptr->data);	
 }
 
 void reverseListIteratively()
 {
-	Node *temp=NULL,*prev=NULL,*ptr=head;
+	Node *temp=NULL,*prev=NULL,*ptr=start;
 	while(ptr!=NULL){
         temp=ptr->next;
         ptr->next=prev;
         prev=ptr;
         ptr=temp;
 	}
-    head=prev;
+    start=prev;
 }
 
 Node* middleOfList(){
 	
-	Node*slow=head,*fast=head;
+	Node*slow=start,*fast=start;
 	while(fast&&fast->next){
 			slow=slow->next;
 			fast=fast->next->next;
@@ -62,9 +68,9 @@ Node* middleOfList(){
 int isPalin(Node *middle){
 	
 	while(middle != NULL){
-		if(middle->data != head->data)
+		if(middle->data != start->data)
 			return 0;
-		head = head->next;
+		start = start->next;
 		middle = middle->next;
 	}
 	return 1;
@@ -77,11 +83,9 @@ int main()
     printf("Enter size :-\n");
 	scanf("%d", &size);
 
-    int data;
     printf("Enter elements:-\n");
     f(i,0,size){
-        scanf("%d", &data); 
-        insertAtBeginning(data);
+        create();
     }
 	
 	printf("Given List is :-\n");
