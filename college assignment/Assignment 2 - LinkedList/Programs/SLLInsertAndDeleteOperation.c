@@ -6,6 +6,7 @@ typedef struct node{
         int data;
         struct node *next;
 } Node ;
+
 Node *start=NULL;
 
 void createSLL()
@@ -205,7 +206,7 @@ int main(){
         int choice;
         while(1){
                 printf("\n***SINGLE LINKED LIST OPERATIONS:****\n");
-                printf("\n                MENU                             \n");
+                printf("\n                MENU                           \n");
                 printf("---------------------------------------\n");
                 printf("\n 1.create     \n");
                 printf("\n 2.display    \n");
