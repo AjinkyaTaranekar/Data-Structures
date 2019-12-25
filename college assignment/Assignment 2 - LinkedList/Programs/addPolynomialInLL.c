@@ -11,25 +11,25 @@ typedef struct node{
 
 void addPolynomialToLL(int coefficient, int power,Node **poly)
 {
-    Node *r, *z; 
-    z = *poly; 
-    if(z == NULL) 
+    Node *temp, *ptr; 
+    ptr = *poly; 
+    if(ptr == NULL) 
     { 
-        r =( Node*)malloc(sizeof( Node)); 
-        r->coefficient = coefficient; 
-        r->power = power; 
-        *poly = r; 
-        r->next = (Node*)malloc(sizeof(Node)); 
-        r = r->next; 
-        r->next = NULL; 
+        temp =( Node*)malloc(sizeof( Node)); 
+        temp->coefficient = coefficient; 
+        temp->power = power; 
+        *poly = temp; 
+        temp->next = (Node*)malloc(sizeof(Node)); 
+        temp = temp->next; 
+        temp->next = NULL; 
     } 
     else
     { 
-        r->coefficient = coefficient; 
-        r->power = power; 
-        r->next = (Node*)malloc(sizeof( Node)); 
-        r = r->next; 
-        r->next = NULL; 
+        temp->coefficient = coefficient; 
+        temp->power = power; 
+        temp->next = (Node*)malloc(sizeof( Node)); 
+        temp = temp->next; 
+        temp->next = NULL; 
     } 
 }
 
