@@ -11,18 +11,16 @@ typedef struct node{
 
 void addPolynomialToLL(int coefficient, int power,Node **poly)
 {
-    Node *temp,*ptr;
+    Node *temp=NULL,*ptr=NULL;
         temp=(Node *)malloc(sizeof(Node));
-        
         if(temp==NULL){
                 printf("\nOut of Memory Space:\n");
                 exit(0);
         }
-
         temp->coefficient=coefficient;
         temp->power=power;
         temp->next=NULL;
-        
+    
         if(*poly==NULL)
                 *poly=temp;
         
@@ -53,8 +51,10 @@ void displayPolynomial(Node *poly){
         printf("%d X %d = 0\n",ptr->coefficient, ptr->power);	
 }
 
-void addPolynomial(Node *poly1, Node *poly2 , Node *poly){
-    while(poly1->next && poly2->next){ 
+void polyadd(Node *poly1, Node *poly2, Node **addedPoly) 
+{ 
+    Node*poly =*addedPoly;
+     while(poly1->next && poly2->next){ 
         if(poly1->power > poly2->power){ 
             poly->power = poly1->power; 
             poly->coefficient = poly1->coefficient; 
@@ -66,7 +66,7 @@ void addPolynomial(Node *poly1, Node *poly2 , Node *poly){
             poly->coefficient = poly2->coefficient; 
             poly2 = poly2->next; 
         } 
-          
+        
         else{ 
             poly->power = poly1->power; 
             poly->coefficient = poly1->coefficient+poly2->coefficient; 
@@ -98,7 +98,7 @@ void addPolynomial(Node *poly1, Node *poly2 , Node *poly){
 
 int main()
 {
-    Node *Poly[2];
+    Node *Poly[2]={NULL};
     printf("Enter polynomials\n");
     f(i,0,2){
         int noOfX=0;
@@ -107,22 +107,23 @@ int main()
         scanf("%d",&noOfX);
         f(j,0,noOfX){
             int coefficient=0, power=0;
-            printf("\nCoefficient \t");
+            printf("\nCoefficient: ");
             scanf("%d",&coefficient);
-            printf("\nPower \t");
+            printf("Power: ");
             scanf("%d",&power);
-            addPolynomialToLL(coefficient,power,&(Poly[i]));
+            addPolynomialToLL(coefficient,power,&Poly[i]);
         }
         printf("Entered Polynomial is :-\n");
 	    displayPolynomialInLL(Poly[i]);
         displayPolynomial(Poly[i]);
     }
 	
-	Node * addedPoly = (Node *)malloc(sizeof(Node));
-	addPolynomial(Poly[0],Poly[1],addedPoly);
-    printf("Entered Polynomial is :-\n");
+    Node *addedPoly = (Node*)malloc(sizeof(Node)); 
+   
+	polyadd(Poly[0],Poly[1],&addedPoly);
+    
+    printf("Added Polynomial is :-\n");
     displayPolynomialInLL(addedPoly);
     displayPolynomial(addedPoly);
-    
 	return 0;
 }
