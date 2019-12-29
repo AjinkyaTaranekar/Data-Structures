@@ -55,13 +55,46 @@ void reverseListIteratively(Node *list, Node **revList){
 	*revList = prev; 
 }
 
+void duplicate(Node **list, int data){
+        Node *temp,*ptr;
+        temp=(Node *)malloc(sizeof(Node));
+        
+        if(temp==NULL){
+                printf("\nOut of Memory Space:\n");
+                exit(0);
+        }
+
+        temp->data=data;
+        temp->next=NULL;
+        
+        if(*list==NULL)
+                *list=temp;
+        
+        else{
+                ptr=*list;
+                while(ptr->next){
+                        ptr=ptr->next;
+                }
+                ptr->next=temp;
+        }
+}
+
+Node * duplicateLL(Node *original){
+    Node* ptr = NULL;
+	while(original){
+		duplicate(&ptr,original->data);
+		original=original->next;
+	}
+	return ptr;
+}
+
 int isPalin(Node *list){
 	int len = 0, counter = 0;
 	Node *revList = NULL;
-	Node *l1 = list;
+	Node *l1 = duplicateLL(list);
 	Node *l2 = revList;
 
-	reverseListIteratively(l1,&l2);
+	reverseListIteratively(list,&l2);
 	printf("Reverse LL:\n");
 	display(l2);
 	
@@ -72,12 +105,10 @@ int isPalin(Node *list){
 	
 	while(l1){
 		len++;
-		printf("%d%d",l1->data ,l2->data);
 		if (l1->data == l2->data){
 			counter++;
 			l1 = l1->next;
 			l2 = l2->next;
-			printf("Hello");
 		}
 		else
 			break;
