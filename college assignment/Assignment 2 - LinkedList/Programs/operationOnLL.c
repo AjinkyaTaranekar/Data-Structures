@@ -88,11 +88,37 @@ void display(Node *first){
         printf("%d -> NULL\n",ptr->data);	
 }
 
+void duplicate(Node **list, int data){
+        Node *temp,*ptr;
+        temp=(Node *)malloc(sizeof(Node));
+        
+        if(temp==NULL){
+                printf("\nOut of Memory Space:\n");
+                exit(0);
+        }
+
+        temp->data=data;
+        temp->next=NULL;
+        
+        if(*list==NULL)
+                *list=temp;
+        
+        else{
+                ptr=*list;
+                while(ptr->next){
+                        ptr=ptr->next;
+                }
+                ptr->next=temp;
+        }
+}
+
 Node * duplicateLL(Node *original){
-    Node* ptr = (Node*)malloc(sizeof(Node));
-    ptr->data=original->data;
-    ptr->next=original->next;
-    return ptr;
+    Node* ptr = NULL;
+	while(original){
+		duplicate(&ptr,original->data);
+		original=original->next;
+	}
+	return ptr;
 }
 
 int main()
