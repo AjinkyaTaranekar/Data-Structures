@@ -113,84 +113,44 @@ void insert(int choice){
                         insertWRTPosition(temp);
             }
 }
-
-
-void deleteFromTheBegining(){
-        Node *ptr;
-        if(ptr==NULL){
-                printf("\nList is Empty:\n");
+int countNoOfNodes(){
+        int len =0;
+        Node * ptr = start;
+        while(ptr){
+                len++;
+                ptr=ptr->next;
+        }
+        return len;
+}
+void delete (int pos){
+        struct node *t = start, *temp = NULL, *p = NULL, *q = NULL;
+        int count = countNoOfNodes();
+        if (pos < 1 || pos > count)
                 return;
+        
+        else if (pos == 1){
+                start = start->next;
+                start->previous = NULL;
+        }
+
+        else if (pos == count){
+                for (int i = 1; i < pos - 1; i++)
+                        temp = temp->next;
+                temp=temp->previous;
+                temp->next = NULL;
         }
         else{
-                ptr=start;
-                start=start->next ;
-                printf("\nThe deleted element is :%d\t",ptr->data);
-                free(ptr);
-        }
-}
-
-void deleteFromTheEnd(){
-        Node *temp,*ptr;
-        if(start==NULL){
-                printf("\nList is Empty:");
-                exit(0);
-        }
-        else if(start->next ==NULL){
-                ptr=start;
-                start=NULL;
-                printf("\nThe deleted element is:%d\t",ptr->data);
-                free(ptr);
-        }
-        else{
-                ptr=start;
-                while(ptr->next){
-                        temp=ptr;
-                        ptr=ptr->next;
-                }
-
-                temp->next=NULL;
-                printf("\nThe deleted element is:%d\t",ptr->data);
-                free(ptr);
-        }
-}
-
-void deleteWRTPosition(){
-        Node *temp;
-        if(start==NULL){
-                printf("\nThe List is Empty:\n");
-                exit(0);
-        }
-        else{
-                int pos;
-                printf("\nEnter the position of the node to be deleted:\t");
-                scanf("%d",&pos);
-                Node *ptr;
-                if(pos==0){
-                        ptr=start;
-                        start=start->next ;
-                        printf("\nThe deleted element is:%d\t",ptr->data  );
-                        free(ptr);
-                }
-                
-                else{
-                        ptr=start;
-                        f(i,0,pos){
-                                temp=ptr;
-                                ptr=ptr->next ;
-                                if(ptr==NULL){
-                                        printf("\nPosition not Found:\n");
-                                        return;
-                                }
-                        }
-                        temp->next =ptr->next ;
-                        printf("\nThe deleted element is:%d\t",ptr->data );
-                        free(ptr);
-                }
+                for (int i = 1; i < pos; i++)
+                        t = t->next;
+                p = t->previous;
+                p->next = t->next;
+                q = t->next;
+                q->previous = t->previous;
         }
 }
 
 int main(){
-        int choice;
+        int choice,pos;
         while(1){
                 printf("\n***DOUBLY LINKED LIST OPERATIONS:****\n");
                 printf("\n                MENU                           \n");
@@ -219,11 +179,12 @@ int main(){
                                         break;
                         case 5:         insert(5);
                                         break;
-                        case 6:         deleteFromTheBegining();
+                        case 6:         delete(1);
                                         break;
-                        case 7:         deleteFromTheEnd();
+                        case 7:         delete(countNoOfNodes());
                                         break;
-                        case 8:         deleteWRTPosition();
+                        case 8:         scanf("%d",&pos);
+                                        delete(pos);
                                         break;
                         case 9:         exit(0);
                                         break;
