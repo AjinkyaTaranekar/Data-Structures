@@ -7,9 +7,7 @@ typedef struct node{
 	struct node *next;	
 }Node;
 
-Node *start=NULL;
-
-void create()
+void create(Node **list)
 {
         Node *temp,*ptr;
         temp=(Node *)malloc(sizeof(Node));
@@ -22,11 +20,11 @@ void create()
         scanf("%d",&temp->data);
         temp->next=NULL;
         
-        if(start==NULL)
-                start=temp;
+        if(*list==NULL)
+                *list=temp;
         
         else{
-                ptr=start;
+                ptr=*list;
                 while(ptr->next){
                         ptr=ptr->next;
                 }
@@ -34,8 +32,8 @@ void create()
         }
 }
 
-void display(){
-    Node *ptr = start;
+void display(Node *list){
+    Node *ptr = list;
 	while(ptr->next){
 			printf("%d -> ",ptr->data);
 			ptr=ptr->next; 
@@ -43,58 +41,67 @@ void display(){
         printf("%d -> NULL\n",ptr->data);	
 }
 
-void reverseListIteratively()
-{
-	Node *temp=NULL,*prev=NULL,*ptr=start;
-	while(ptr!=NULL){
-        temp=ptr->next;
-        ptr->next=prev;
-        prev=ptr;
-        ptr=temp;
-	}
-    start=prev;
+
+void reverseListIteratively(Node *list, Node **revList){
+	Node* current = list; 
+	Node *prev = NULL, *next = NULL; 
+	
+	while (current != NULL) { 
+		next = current->next; 
+		current->next = prev; 
+		prev = current; 
+		current = next; 
+	} 
+	*revList = prev; 
 }
 
-Node* middleOfList(){
+int isPalin(Node *list){
+	int len = 0, counter = 0;
+	Node *revList = NULL;
+	Node *l1 = list;
+	Node *l2 = revList;
+
+	reverseListIteratively(l1,&l2);
+	printf("Reverse LL:\n");
+	display(l2);
 	
-	Node*slow=start,*fast=start;
-	while(fast&&fast->next){
-			slow=slow->next;
-			fast=fast->next->next;
+	if (list == NULL || l2 == NULL)
+		return 0;
+	
+	display(l1);
+	
+	while(l1){
+		len++;
+		printf("%d%d",l1->data ,l2->data);
+		if (l1->data == l2->data){
+			counter++;
+			l1 = l1->next;
+			l2 = l2->next;
+			printf("Hello");
 		}
-	return slow;
-}
-
-int isPalin(Node *middle){
-	
-	while(middle != NULL){
-		if(middle->data != start->data)
-			return 0;
-		start = start->next;
-		middle = middle->next;
+		else
+			break;
 	}
-	return 1;
+	return counter == len ? 1 : 0;
 }
 
 
-int main()
-{
+int main(){
 	int size;
     printf("Enter size :-\n");
 	scanf("%d", &size);
+	
+	Node *list=NULL;
 
     printf("Enter elements:-\n");
     f(i,0,size){
-        create();
+        create(&list);
     }
 	
 	printf("Given List is :-\n");
-	display();
+	display(list);
 	
-	Node * middle = middleOfList();
-	reverseListIteratively(middle);
-	
-	if(isPalin(middle))
+	if(isPalin(list))
 		printf("\nGiven list is a palindrome\n");
 	
 	else
