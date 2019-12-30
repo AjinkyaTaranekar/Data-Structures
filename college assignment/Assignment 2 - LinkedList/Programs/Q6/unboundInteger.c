@@ -102,7 +102,6 @@ Node * subtract(Node *first, Node *second){
 }
 
 Node * multiply(Node *first, Node *second){
-    
                    
     Node* result = NULL; 
     Node *second_ptr = second, *result_ptr1 = result, *result_ptr2, *first_ptr; 
