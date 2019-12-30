@@ -1,0 +1,170 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include<string.h>
+#define f(i,a,b) for(register int i=a; i<b; i++)
+
+typedef struct node{
+	int data;
+	struct node *next;	
+}Node;
+
+void display(Node *first){
+    Node *ptr = first;
+	while(ptr->next){
+			printf("%d -> ",ptr->data);
+			ptr=ptr->next; 
+		}
+        printf("%d -> NULL\n",ptr->data);	
+}
+
+void create(Node **list, int data){
+        Node *temp,*ptr;
+        temp=(Node *)malloc(sizeof(Node));
+        
+        if(temp==NULL){
+                printf("\nOut of Memory Space:\n");
+                exit(0);
+        }
+
+        temp->data=data;
+        temp->next=NULL;
+        
+        if(*list==NULL)
+                *list=temp;
+        
+        else{
+                ptr=*list;
+                while(ptr->next){
+                        ptr=ptr->next;
+                }
+                ptr->next=temp;
+        }
+}
+
+Node * duplicateLL(Node *original){
+    Node* ptr = NULL;
+	while(original){
+		create(&ptr,original->data);
+		original=original->next;
+	}
+	return ptr;
+}
+int noOfNodes(Node * list){
+        int size =0;
+        Node *temp = list;
+        while(temp){
+                size++;
+                temp=temp->next;
+        }        
+        return size;
+}
+Node * add(Node *first, Node *second){
+    Node* res = NULL; 
+    int carry = 0, sum;  
+        display(first);
+        display(second);
+    while (first || second )  
+    {  
+        sum = carry + (first? first->data: 0) + (second? second->data: 0);  
+  
+        carry = (sum >= 10)? 1 : 0;  
+  
+        sum = sum % 10;  
+  
+        create(&res,sum);  
+  
+        if (first) first = first->next;  
+        if (second) second = second->next;  
+    }  
+  
+    if (carry > 0)  
+        create(&res,carry);  
+    return res;  
+}
+
+int main(){
+    char num1[30];
+    printf("Enter number 1: ");
+    fgets(num1, sizeof(num1), stdin);  // read string
+    
+    char num2[30];
+    printf("Enter number 2: ");
+    fgets(num2, sizeof(num2), stdin);  // read string
+    
+    Node *number1=NULL, *number2=NULL;
+    for (int i=strlen(num1)-2; i>=0; i--)
+        create(&number1,num1[i]-'0');
+	
+    for (int i=strlen(num2)-2; i>=0; i--)
+        create(&number2,num2[i]-'0');
+	
+    Node *t1 = NULL,*t2 = NULL, *result=NULL;
+    int choice;
+    while(1){
+                printf("\n***SINGLE LINKED LIST OPERATIONS:****\n");
+                printf("\n                MENU                           \n");
+                printf("---------------------------------------\n");
+                printf("\n 1. Addition     \n");
+                printf("\n 2. Subtraction    \n");
+                printf("\n 3. Multiplication    \n");
+                printf("\n 4. Factorial       \n");
+                printf("\n 5. Exit       \n");
+                printf("\n--------------------------------------\n");
+                printf("Enter your choice:\t");
+                scanf("%d",&choice);
+                switch(choice)
+                {
+                        case 1:         t1 = duplicateLL(number1);
+                                        t2 = duplicateLL(number2);
+                                        result = add(t1,t2);
+                                        display(result);
+                                        int size = noOfNodes(result);
+                                        char res[100];
+                                        for(int i=size-1; i>=0; i--){
+                                                res[i] = result->data + '0';
+                                                result = result->next; 
+                                        }
+                                        f(i,0,size)
+                                                printf("%c",res[i]);
+                                        printf("\n");
+                                        t1=NULL;
+                                        t2=NULL;
+                                        result=NULL;
+                                        break;
+
+                        case 2:         t1 = duplicateLL(number1);
+                                        t2 = duplicateLL(number2);
+                                        //result = subtract(t1,t2);
+                                        display(result);
+                                        t1=NULL;
+                                        t2=NULL;
+                                        result=NULL;
+                                        break;
+
+                        case 3:         t1 = duplicateLL(number1);
+                                        t2 = duplicateLL(number2);
+                                        //result = multiply(t1,t2);
+                                        display(result);
+                                        t1=NULL;
+                                        t2=NULL;
+                                        result=NULL;
+                                        break;
+
+                        case 4:         t1 = duplicateLL(number1);
+                                        t2 = duplicateLL(number2);
+                                        //result = factorial(t1,t2);
+                                        display(result);
+                                        t1=NULL;
+                                        t2=NULL;
+                                        result=NULL;
+                                        break;
+
+                        case 5:         exit(0);
+                                        break;
+
+                        default:        printf("\n Wrong Choice:\n");
+                                        break;
+                }
+        }
+	return 0;
+}
