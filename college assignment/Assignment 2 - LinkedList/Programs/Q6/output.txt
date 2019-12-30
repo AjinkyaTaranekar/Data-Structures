@@ -1,0 +1,67 @@
+Microsoft Windows [Version 10.0.18363.535]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+E:\assignment\Data-Structures\college assignment\Assignment 2 - LinkedList\Programs\Q6>gcc -o c unboundInteger.c
+
+E:\assignment\Data-Structures\college assignment\Assignment 2 - LinkedList\Programs\Q6>c
+Enter number 1: 96
+Enter number 2: 4
+
+***SINGLE LINKED LIST OPERATIONS:****
+
+                MENU
+---------------------------------------
+
+ 1. Addition
+
+ 2. Subtraction
+
+ 3. Multiplication
+
+ 4. Factorial
+
+ 5. Exit
+
+--------------------------------------
+Enter your choice:      1
+100
+
+***SINGLE LINKED LIST OPERATIONS:****
+
+                MENU
+---------------------------------------
+
+ 1. Addition
+
+ 2. Subtraction
+
+ 3. Multiplication
+
+ 4. Factorial
+
+ 5. Exit
+
+--------------------------------------
+Enter your choice:      2
+2 -> 9 -> NULL
+92
+
+***SINGLE LINKED LIST OPERATIONS:****
+
+                MENU
+---------------------------------------
+
+ 1. Addition
+
+ 2. Subtraction
+
+ 3. Multiplication
+
+ 4. Factorial
+
+ 5. Exit
+
+--------------------------------------
+Enter your choice:      5
+
+E:\assignment\Data-Structures\college assignment\Assignment 2 - LinkedList\Programs\Q6>
