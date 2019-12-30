@@ -1,0 +1,12 @@
+Microsoft Windows [Version 10.0.18363.535]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+E:\assignment\Data-Structures\college assignment\Assignment 2 - LinkedList\Programs\Q9>gcc -o c addPolynomialInLL.c
+
+E:\assignment\Data-Structures\college assignment\Assignment 2 - LinkedList\Programs\Q9>c
+1st Number: 5x^4 + 6x^3 + 1x^2
+2nd Number: 3x^1 + 5x^4
+Added polynomial: 5x^4 + 6x^3 + 1x^2 + 3x^1 + 5x^4
+E:\assignment\Data-Structures\college assignment\Assignment 2 - LinkedList\Programs\Q9>
+
+
