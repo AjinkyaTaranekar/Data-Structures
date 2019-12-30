@@ -61,8 +61,6 @@ int noOfNodes(Node * list){
 Node * add(Node *first, Node *second){
     Node* res = NULL; 
     int carry = 0, sum;  
-        display(first);
-        display(second);
     while (first || second )  
     {  
         sum = carry + (first? first->data: 0) + (second? second->data: 0);  
@@ -79,6 +77,28 @@ Node * add(Node *first, Node *second){
   
     if (carry > 0)  
         create(&res,carry);  
+    return res;  
+}
+
+Node * subtract(Node *first, Node *second){
+    Node* res = NULL; 
+    int borrow = 0, diff;  
+    while (first || second )  
+    {  
+        diff = (first? first->data: 0) - borrow - (second? second->data: 0);  
+  
+        borrow = (diff < 0)? 1 : 0;  
+  
+        diff = diff % 10;  
+  
+        create(&res,diff);  
+  
+        if (first) first = first->next;  
+        if (second) second = second->next;  
+    }  
+  
+    if (borrow > 0)  
+        create(&res,borrow);  
     return res;  
 }
 
@@ -99,7 +119,8 @@ int main(){
         create(&number2,num2[i]-'0');
 	
     Node *t1 = NULL,*t2 = NULL, *result=NULL;
-    int choice;
+    char res[100];
+    int choice,size=0;
     while(1){
                 printf("\n***SINGLE LINKED LIST OPERATIONS:****\n");
                 printf("\n                MENU                           \n");
@@ -117,9 +138,7 @@ int main(){
                         case 1:         t1 = duplicateLL(number1);
                                         t2 = duplicateLL(number2);
                                         result = add(t1,t2);
-                                        display(result);
-                                        int size = noOfNodes(result);
-                                        char res[100];
+                                        size = noOfNodes(result);
                                         for(int i=size-1; i>=0; i--){
                                                 res[i] = result->data + '0';
                                                 result = result->next; 
@@ -134,8 +153,15 @@ int main(){
 
                         case 2:         t1 = duplicateLL(number1);
                                         t2 = duplicateLL(number2);
-                                        //result = subtract(t1,t2);
-                                        display(result);
+                                        result = subtract(t1,t2);
+                                        size = noOfNodes(result);
+                                        for(int i=size-1; i>=0; i--){
+                                                res[i] = result->data + '0';
+                                                result = result->next; 
+                                        }
+                                        f(i,0,size)
+                                                printf("%c",res[i]);
+                                        printf("\n");
                                         t1=NULL;
                                         t2=NULL;
                                         result=NULL;
