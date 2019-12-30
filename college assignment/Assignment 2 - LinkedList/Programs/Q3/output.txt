@@ -1,0 +1,19 @@
+Microsoft Windows [Version 10.0.18363.535]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+E:\assignment\Data-Structures\college assignment\Assignment 2 - LinkedList\Programs\Q3>gcc -o c isLinkedListPalindrome.c
+
+E:\assignment\Data-Structures\college assignment\Assignment 2 - LinkedList\Programs\Q3>c
+Enter size :-
+5
+Enter elements:-
+1 2 3 2 1
+Given List is :-
+1 -> 2 -> 3 -> 2 -> 1 -> NULL
+Reverse LL:
+1 -> 2 -> 3 -> 2 -> 1 -> NULL
+1 -> 2 -> 3 -> 2 -> 1 -> NULL
+
+Given list is a palindrome
+
+E:\assignment\Data-Structures\college assignment\Assignment 2 - LinkedList\Programs\Q3>
