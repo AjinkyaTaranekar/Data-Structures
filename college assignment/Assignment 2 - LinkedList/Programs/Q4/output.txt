@@ -1,0 +1,22 @@
+Microsoft Windows [Version 10.0.18363.535]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+E:\assignment\Data-Structures\college assignment\Assignment 2 - LinkedList\Programs\Q4>gcc -o c mergeSortedLL.c
+
+E:\assignment\Data-Structures\college assignment\Assignment 2 - LinkedList\Programs\Q4>c
+Enter size :-
+4
+Enter elements in sorted format:-
+1 3 5 7
+Given List is :-
+1 -> 3 -> 5 -> 7 -> NULL
+Enter size :-
+6
+Enter elements in sorted format:-
+2 4 6 8 10 12
+Given List is :-
+2 -> 4 -> 6 -> 8 -> 10 -> 12 -> NULL
+Merged linked list is :-
+1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 10 -> 12 -> NULL
+
+E:\assignment\Data-Structures\college assignment\Assignment 2 - LinkedList\Programs\Q4>
