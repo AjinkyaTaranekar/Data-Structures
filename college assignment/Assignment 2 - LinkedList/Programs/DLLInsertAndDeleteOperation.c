@@ -123,21 +123,30 @@ int countNoOfNodes(){
         return len;
 }
 void delete (int pos){
-        struct node *t = start, *temp = NULL, *p = NULL, *q = NULL;
+        Node *t = start, *temp = start, *p = NULL, *q = NULL;
         int count = countNoOfNodes();
-        if (pos < 1 || pos > count)
+        if (pos < 1 || pos > count){
+                printf("\nPosition %d not found. ",pos);
                 return;
+        }
         
         else if (pos == 1){
-                start = start->next;
-                start->previous = NULL;
+                if(start->next){
+                        start = start->next;
+                        start->previous = NULL;
+                }
+                else
+                        start=NULL;
+                printf("\nDeleted first Node. ");
         }
 
         else if (pos == count){
-                for (int i = 1; i < pos - 1; i++)
+                while(temp->next)
                         temp = temp->next;
-                temp=temp->previous;
                 temp->next = NULL;
+                printf("hi");
+                temp=temp->previous;
+                printf("\nDeleted last Node. ");
         }
         else{
                 for (int i = 1; i < pos; i++)
@@ -146,6 +155,7 @@ void delete (int pos){
                 p->next = t->next;
                 q = t->next;
                 q->previous = t->previous;
+                printf("\nDeleting Node at position %d. ",pos);
         }
 }
 
@@ -183,7 +193,8 @@ int main(){
                                         break;
                         case 7:         delete(countNoOfNodes());
                                         break;
-                        case 8:         scanf("%d",&pos);
+                        case 8:         printf("\n Enter position to be deleted:\n");
+                                        scanf("%d",&pos);
                                         delete(pos);
                                         break;
                         case 9:         exit(0);
