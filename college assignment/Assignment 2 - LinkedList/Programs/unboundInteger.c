@@ -89,8 +89,6 @@ Node * subtract(Node *first, Node *second){
   
         borrow = (diff < 0)? 1 : 0;  
   
-        diff = diff % 10;  
-  
         create(&res,diff);  
   
         if (first) first = first->next;  
@@ -98,7 +96,7 @@ Node * subtract(Node *first, Node *second){
     }  
   
     if (borrow > 0)  
-        create(&res,borrow);  
+        create(&res,-1);  
     return res;  
 }
 
@@ -154,6 +152,7 @@ int main(){
                         case 2:         t1 = duplicateLL(number1);
                                         t2 = duplicateLL(number2);
                                         result = subtract(t1,t2);
+                                        display (result);
                                         size = noOfNodes(result);
                                         for(int i=size-1; i>=0; i--){
                                                 res[i] = result->data + '0';
