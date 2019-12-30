@@ -1,0 +1,16 @@
+Microsoft Windows [Version 10.0.18363.535]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+E:\assignment\Data-Structures\college assignment\Assignment 2 - LinkedList\Programs\Q5>gcc -o c countNumber.c
+
+E:\assignment\Data-Structures\college assignment\Assignment 2 - LinkedList\Programs\Q5>c
+Enter size :-
+5
+Enter elements:-
+1 2 3 1 2
+Given List is :-
+1 -> 2 -> 3 -> 1 -> 2 -> NULL
+Enter number to be found :-
+2
+Given 2 occur 2 times.
+E:\assignment\Data-Structures\college assignment\Assignment 2 - LinkedList\Programs\Q5>
