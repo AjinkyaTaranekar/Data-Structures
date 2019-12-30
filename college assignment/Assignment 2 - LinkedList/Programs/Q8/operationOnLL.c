@@ -69,14 +69,13 @@ void mergeTwoLLInAlt(Node *first,Node *second){
         p_next = p_curr->next;  
         q_next = q_curr->next;  
   
-        q_curr->next = p_next; // Change next pointer of q_curr  
-        p_curr->next = q_curr; // Change next pointer of p_curr  
+        q_curr->next = p_next;   
+        p_curr->next = q_curr;   
   
         p_curr = p_next;  
         q_curr = q_next;  
     }  
-  
-    second = q_curr; // Update head pointer of second list  
+    second = q_curr;   
 }  
 
 void display(Node *first){
