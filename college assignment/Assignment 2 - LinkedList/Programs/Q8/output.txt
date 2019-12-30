@@ -1,0 +1,128 @@
+Microsoft Windows [Version 10.0.18363.535]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+E:\assignment\Data-Structures\college assignment\Assignment 2 - LinkedList\Programs\Q8>gcc -o c operationOnLL.c
+
+E:\assignment\Data-Structures\college assignment\Assignment 2 - LinkedList\Programs\Q8>c
+Enter size :-
+4
+Enter elements:-
+1 3 5 7
+Given List is :-
+1 -> 3 -> 5 -> 7 -> NULL
+
+***SINGLE LINKED LIST OPERATIONS:****
+
+                MENU
+---------------------------------------
+
+ 1. Pair wise swapping
+
+ 2. Remove alternate nodes
+
+ 3. Merge two LL in alternate manner
+
+ 4.Exit
+
+--------------------------------------
+Enter your choice:      1
+3 -> 1 -> 7 -> 5 -> NULL
+
+***SINGLE LINKED LIST OPERATIONS:****
+
+                MENU
+---------------------------------------
+
+ 1. Pair wise swapping
+
+ 2. Remove alternate nodes
+
+ 3. Merge two LL in alternate manner
+
+ 4.Exit
+
+--------------------------------------
+Enter your choice:      2
+1 -> 5 -> NULL
+
+***SINGLE LINKED LIST OPERATIONS:****
+
+                MENU
+---------------------------------------
+
+ 1. Pair wise swapping
+
+ 2. Remove alternate nodes
+
+ 3. Merge two LL in alternate manner
+
+ 4.Exit
+
+--------------------------------------
+Enter your choice:      3
+Another list :-
+Enter size :-
+2 4 6 8
+Enter elements:-
+Given Another List is :-
+4 -> 6 -> NULL
+1 -> 4 -> 3 -> 6 -> 5 -> 7 -> NULL
+
+***SINGLE LINKED LIST OPERATIONS:****
+
+                MENU
+---------------------------------------
+
+ 1. Pair wise swapping
+
+ 2. Remove alternate nodes
+
+ 3. Merge two LL in alternate manner
+
+ 4.Exit
+
+--------------------------------------
+Enter your choice:
+ Wrong Choice:
+
+***SINGLE LINKED LIST OPERATIONS:****
+
+                MENU
+---------------------------------------
+
+ 1. Pair wise swapping
+
+ 2. Remove alternate nodes
+
+ 3. Merge two LL in alternate manner
+
+ 4.Exit
+
+--------------------------------------
+Enter your choice:      3
+Another list :-
+Enter size :-
+4
+Enter elements:-
+2 4 6 8
+Given Another List is :-
+2 -> 4 -> 6 -> 8 -> NULL
+1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> NULL
+
+***SINGLE LINKED LIST OPERATIONS:****
+
+                MENU
+---------------------------------------
+
+ 1. Pair wise swapping
+
+ 2. Remove alternate nodes
+
+ 3. Merge two LL in alternate manner
+
+ 4.Exit
+
+--------------------------------------
+Enter your choice:      4
+
+E:\assignment\Data-Structures\college assignment\Assignment 2 - LinkedList\Programs\Q8>
