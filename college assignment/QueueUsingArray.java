@@ -55,7 +55,7 @@ class QueueUsingArray{
     public int queueFront(){
         if(isEmpty()){
             System.out.println("Queue is Empty\n");
-            return;
+            System.exit(1);
         }
         return queue[front];
     }
@@ -65,7 +65,6 @@ class QueueUsingArray{
 public class Main{
     public static void main(String[] args){
         QueueUsingArray queue = new QueueUsingArray(5);
-        queue.getSize(5);
         queue.enqueue(5);
         queue.enqueue(6);
         queue.enqueue(7);
