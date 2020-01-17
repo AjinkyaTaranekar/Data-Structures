@@ -1,6 +1,6 @@
 import java.util.*; 
 
-class QueueUsing2Stack{
+class Queue{
     class StackUsingLinkedList{
         private class Node{
         int data;
@@ -64,19 +64,19 @@ class QueueUsing2Stack{
         
         public void display(){
             Node temp = top;
-            System.out.println("_____");
+            
+            System.out.print(" \n");
             while(temp != null){
-                System.out.println("| "+ temp.data +" |" );
+                System.out.print( temp.data +" " );
                 temp=temp.next;    
             }
-            System.out.println("_____");
         }
     }
         
     StackUsingLinkedList s1 = new StackUsingLinkedList(); 
     StackUsingLinkedList s2 = new StackUsingLinkedList(); 
 
-    void enQueue(int x){ 
+    void enqueue(int x){ 
 		while (!s1.isEmpty()){ 
 			s2.push(s1.top()); 
 		} 
@@ -88,7 +88,7 @@ class QueueUsing2Stack{
 		} 
 	} 
 
-	int deQueue(){ 
+	int dequeue(){ 
 		if (s1.isEmpty()){ 
 			System.out.println("Queue is Empty"); 
 			System.exit(0); 
@@ -104,17 +104,33 @@ class QueueUsing2Stack{
 	}
 }
 
-public class Main{
+public class QueueUsing2Stack{
     public static void main(String[] args){ 
-    	QueueUsing2Stack queue = new QueueUsing2Stack(); 
-    	queue.enQueue(1); 
-    	queue.enQueue(2); 
-    	queue.enQueue(3); 
-        queue.display();
+        Scanner keyboard = new Scanner(System.in);
+        System.out.println("Welcome to Queue Program Using Array");
         
-        queue.deQueue(); 
-    	queue.deQueue(); 
-    	queue.display();
+        Queue queue = new Queue();
+   
+        System.out.println("\nEnter elements of queue");
+        System.out.println("\nTo Break enter -1");
+        while(true){
+			int element = keyboard.nextInt();
+			if(element==-1)
+				break;
+            queue.enqueue(element);
+        }
+
+        System.out.println("\nCurrent queue");
+        queue.display();
+            
+        System.out.println("\nDequeue 2 elements from queue");
+        queue.dequeue();
+        queue.dequeue();
+
+        System.out.println("\nCurrent queue");
+        queue.display();
+
+        keyboard.close();
     } 
 }
 
