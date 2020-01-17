@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-class StackUsingLinkedList
-{
+class Stack{
     private class Node{
         String data;
         Node next;
@@ -67,7 +66,7 @@ class StackUsingLinkedList
     }
 }
 
-public class Main{
+public class PrefixToInfix{
     public static boolean isOperator(char operator){
         switch(operator){
             case '+' : return true;
@@ -78,7 +77,7 @@ public class Main{
         return false;
     }
     public static String prefixToInfix(String sentence) { 
-        StackUsingLinkedList stack = new StackUsingLinkedList();
+        Stack stack = new Stack();
     
         String temp = "";    
         for(int i = sentence.length()-1; i >=0;  i--){
@@ -93,8 +92,12 @@ public class Main{
     } 
     public static void main(String[] args){
         Scanner keyboard = new Scanner(System.in);
-        String sentence = "/+2b-3a";
+        System.out.println("Enter a prefix expression");
+        String sentence = keyboard.nextLine();
+
+        System.out.println("\nInfix expression:");
         System.out.println(prefixToInfix(sentence));
         
+        keyboard.close();
     }
 }
