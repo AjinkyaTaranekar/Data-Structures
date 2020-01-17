@@ -1,5 +1,5 @@
-class StackUsingArray{
-    private int data;
+import java.util.Scanner;
+class Stack{
     private int top=-1;
     private int size=0;
     
@@ -52,27 +52,40 @@ class StackUsingArray{
     }
     
     public void display(){
-        System.out.println("_____");
+        System.out.println("-----");
         for(int i = top  ; i>= 0 ; i--  ){
             System.out.println("| "+ a[i] +" |" );
         }
-        System.out.println("_____");
+        System.out.println("-----");
     }
 }
 
-public class Main{
-    public static void main(String[] args){
-        StackUsingArray stack = new StackUsingArray();
-        stack.getSize(5);
-        stack.push(5);
-        stack.push(6);
-        stack.push(7);
-        stack.push(8);
-        System.out.println(stack.size());
+public class StackUsingArray{
+     public static void main(String[] args){
+        Scanner keyboard = new Scanner(System.in);
+        Stack stack = new Stack();
+        System.out.println("Welcome to Stack Program Using Array");
+        
+        System.out.println("\nEnter size of stack");
+        int numberOfElements = keyboard.nextInt();
+        stack.getSize(numberOfElements);
+
+        System.out.println("\nEnter elements of stack");
+        for(int i = 0; i<numberOfElements; i++){
+            int element = keyboard.nextInt();
+            stack.push(element);
+        }
+
+        System.out.println("\nCurrent stack");
         stack.display();
         
-        System.out.println(stack.topVal());
-        System.out.println(stack.peek());
+        System.out.println("Top value using Top() = "+ stack.topVal());
+
+        System.out.println("Top value using peek() = " + stack.peek());
+        
+        System.out.println("\nCurrent stack");
         stack.display();
+
+        keyboard.close();
     }
 }
