@@ -1,5 +1,6 @@
+import java.util.Scanner;
 
-class QueueUsingLinkedList { 
+class Queue{ 
     private class Node { 
     	int key; 
     	Node next; 
@@ -12,7 +13,7 @@ class QueueUsingLinkedList {
 
 	Node front, rear; 
 
-	public QueueUsingLinkedList(){ 
+	public Queue(){ 
 		this.front = this.rear = null; 
 	} 
 	
@@ -59,25 +60,46 @@ class QueueUsingLinkedList {
 	    System.out.print("\n");
 	    
 	}
+
+	int queueFront(){
+		if (isEmpty()){
+	        System.out.println("Queue is Empty\n");
+	        System.exit(0);
+	    }
+	    return front.key;
+	}
 } 
 
-public class Main { 
+public class QueueUsingLinkedList{ 
 	public static void main(String[] args){
-	    
-		QueueUsingLinkedList queue = new QueueUsingLinkedList(); 
-		queue.enqueue(0); 
-		queue.enqueue(10);
-		queue.enqueue(20); 
-		queue.display();
-		
-		queue.dequeue(); 
-		queue.dequeue(); 
-		queue.display();
-		
-		queue.enqueue(30); 
-		queue.enqueue(40); 
-		queue.enqueue(50); 
-		queue.display();
-	    
+	    Scanner keyboard = new Scanner(System.in);
+        System.out.println("Welcome to Queue Program Using Array");
+        
+        Queue queue = new Queue();
+   
+        System.out.println("\nEnter elements of queue");
+        System.out.println("\nTo Break enter -1");
+        while(true){
+			int element = keyboard.nextInt();
+			if(element==-1)
+				break;
+            queue.enqueue(element);
+        }
+
+        System.out.println("\nCurrent queue");
+        queue.display();
+        
+        
+        System.out.println("\nQueue Front = " +queue.queueFront());
+        
+        System.out.println("\nDequeue 2 elements from queue");
+        queue.dequeue();
+        queue.dequeue();
+
+        System.out.println("\nCurrent queue");
+        queue.display();
+
+        keyboard.close();
+
 	} 
 } 
