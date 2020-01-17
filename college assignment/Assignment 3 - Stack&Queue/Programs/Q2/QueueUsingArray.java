@@ -1,10 +1,12 @@
-class QueueUsingArray{
+import java.util.Scanner;
+
+class Queue{
     private int front;
     private int rear;
     private int capacity;
     private int queue[];
     
-    QueueUsingArray(int capacity){
+    Queue(int capacity){
         front = rear = 0;
         this.capacity = capacity;
         queue = new int[capacity];
@@ -47,8 +49,9 @@ class QueueUsingArray{
             System.out.println("Queue is Empty\n");
             return;
         }
+        System.out.print("\n");
         for(int i = front  ; i< rear ; i++  ){
-            System.out.println(queue[i] +" " );
+            System.out.print(queue[i] +" " );
         }
     }
     
@@ -62,17 +65,34 @@ class QueueUsingArray{
     
 }
 
-public class Main{
+public class QueueUsingArray{
     public static void main(String[] args){
-        QueueUsingArray queue = new QueueUsingArray(5);
-        queue.enqueue(5);
-        queue.enqueue(6);
-        queue.enqueue(7);
-        queue.enqueue(8);
+        Scanner keyboard = new Scanner(System.in);
+        System.out.println("Welcome to Queue Program Using Array");
         
+        System.out.println("\nEnter size of queue");
+        int numberOfElements = keyboard.nextInt();
+        Queue queue = new Queue(numberOfElements);
+   
+        System.out.println("\nEnter elements of queue");
+        for(int i = 0; i<numberOfElements; i++){
+            int element = keyboard.nextInt();
+            queue.enqueue(element);
+        }
+
+        System.out.println("\nCurrent queue");
         queue.display();
         
+        
+        System.out.println("\nQueue Front = " +queue.queueFront());
+        
+        System.out.println("\nDequeue 2 elements from queue");
         queue.dequeue();
+        queue.dequeue();
+
+        System.out.println("\nCurrent queue");
         queue.display();
+
+        keyboard.close();
     }
 }
