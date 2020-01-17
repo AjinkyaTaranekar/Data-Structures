@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-class StackUsingLinkedList
-{
+class Stack{
     private class Node{
         String data;
         Node next;
@@ -67,9 +66,9 @@ class StackUsingLinkedList
     }
 }
 
-public class Main{
+public class ReverseWordsOfSentence{
     public static String reverseWordsOfSentence(String sentence) { 
-        StackUsingLinkedList stack = new StackUsingLinkedList();
+        Stack stack = new Stack();
     
         String temp = "";    
         for(int i = 0 ; i< sentence.length(); i++){
@@ -90,7 +89,11 @@ public class Main{
     } 
     public static void main(String[] args){
         Scanner keyboard = new Scanner(System.in);
-        String sentence = "life is like a box of chocolates";
+        System.out.println("Enter a string to be reversed");
+        String sentence = keyboard.nextLine();
+        
+        System.out.println("Reversed string :");
         System.out.println(reverseWordsOfSentence(sentence));
+        keyboard.close();
     }
 }
