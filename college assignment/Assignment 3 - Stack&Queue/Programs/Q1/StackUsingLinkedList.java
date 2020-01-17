@@ -1,5 +1,6 @@
-class StackUsingLinkedList
-{
+import java.util.Scanner;
+
+class Stack{
     private class Node{
         int data;
         Node next;
@@ -62,29 +63,41 @@ class StackUsingLinkedList
     
     public void display(){
         Node temp = top;
-        System.out.println("_____");
+        System.out.println("-----");
         while(temp != null){
             System.out.println("| "+ temp.data +" |" );
             temp=temp.next;    
         }
-        System.out.println("_____");
+        System.out.println("-----");
     }
 }
 
-public class Main{
+public class StackUsingLinkedList{
     public static void main(String[] args){
-        StackUsingLinkedList stack = new StackUsingLinkedList();
+       
+        Scanner keyboard = new Scanner(System.in);
+        Stack stack = new Stack();
+        System.out.println("Welcome to Stack Program Using Array");
         
-        stack.push(5);
-        stack.push(6);
-        stack.push(7);
-        stack.push(8);
-        stack.push(9);
-        System.out.println(stack.size());
+        System.out.println("\nEnter elements of stack");
+        System.out.println("Break using -1");
+        while(true){
+            int element = keyboard.nextInt();
+            if(element==-1)
+                break;
+            stack.push(element);
+        }
+
+        System.out.println("\nCurrent stack");
         stack.display();
         
-        System.out.println(stack.top());
-        System.out.println(stack.peek());
+        System.out.println("Top value using Top() = "+ stack.top());
+
+        System.out.println("Top value using peek() = " + stack.peek());
+        
+        System.out.println("\nCurrent stack");
         stack.display();
+
+        keyboard.close();
     }
 }
