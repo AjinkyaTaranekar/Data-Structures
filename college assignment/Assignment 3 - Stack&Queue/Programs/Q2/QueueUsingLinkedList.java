@@ -73,7 +73,7 @@ class Queue{
 public class QueueUsingLinkedList{ 
 	public static void main(String[] args){
 	    Scanner keyboard = new Scanner(System.in);
-        System.out.println("Welcome to Queue Program Using Array");
+        System.out.println("Welcome to Queue Program Using Linked List");
         
         Queue queue = new Queue();
    
