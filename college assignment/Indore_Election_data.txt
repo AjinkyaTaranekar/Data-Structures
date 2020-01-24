@@ -1,0 +1,279 @@
+Madhya Pradesh	1977	270	Indore-I	GEN	Rameshwar Chaudhari	M	Independents	IND	177	70761
+Madhya Pradesh	1977	270	Indore-I	GEN	Mohammad Hanif Daudi	M	Independents	IND	189	70761
+Madhya Pradesh	1977	270	Indore-I	GEN	Abdul Shabbir Khan	M	Independents	IND	714	70761
+Madhya Pradesh	1977	270	Indore-I	GEN	Mahesh Joshi	M	Indian National Congress	INC	19182	70761
+Madhya Pradesh	1977	270	Indore-I	GEN	Om Prakash Rawal	M	Janata Party	JNP	22607	70761
+Madhya Pradesh	1977	272	Indore-Iii	GEN	Govind Batham	M	Independents	IND	134	67703
+Madhya Pradesh	1977	272	Indore-Iii	GEN	Gulabrao Thakre	M	Independents	IND	287	67703
+Madhya Pradesh	1977	272	Indore-Iii	GEN	Surendra Varma	M	Independents	IND	298	67703
+Madhya Pradesh	1977	272	Indore-Iii	GEN	Mohammad Hussain Khokar	M	Independents	IND	579	67703
+Madhya Pradesh	1977	272	Indore-Iii	GEN	Dileep Rajpal	M	Independents	IND	2412	67703
+Madhya Pradesh	1977	272	Indore-Iii	GEN	Narayan Prasad Kantilal Shukla	M	Indian National Congress	INC	11176	67703
+Madhya Pradesh	1977	272	Indore-Iii	GEN	Rajendra Dharkar	M	Janata Party	JNP	22519	67703
+Madhya Pradesh	1977	273	Indore-Iv	GEN	Ratan Jain	M	Independents	IND	160	75654
+Madhya Pradesh	1977	273	Indore-Iv	GEN	Rajiv Rahul Barpute	M	Independents	IND	176	75654
+Madhya Pradesh	1977	273	Indore-Iv	GEN	Mohammad Wahid Khilj	M	Independents	IND	225	75654
+Madhya Pradesh	1977	273	Indore-Iv	GEN	Mahendra Singh	M	Independents	IND	333	75654
+Madhya Pradesh	1977	273	Indore-Iv	GEN	Mohammad Dilawar Khan	M	Independents	IND	2452	75654
+Madhya Pradesh	1977	273	Indore-Iv	GEN	Chandra Prabhash Shekhar	M	Indian National Congress	INC	15009	75654
+Madhya Pradesh	1977	273	Indore-Iv	GEN	Vallabh Sharma	M	Janata Party	JNP	28061	75654
+Madhya Pradesh	1980	270	Indore-I	GEN	Mahesh Kesera	M	Independents	IND	24	82018
+Madhya Pradesh	1980	270	Indore-I	GEN	Asip Ali Imamali Zafri	M	Independents	IND	63	82018
+Madhya Pradesh	1980	270	Indore-I	GEN	Shyam Sunder Laxminarayan	M	Independents	IND	82	82018
+Madhya Pradesh	1980	270	Indore-I	GEN	Subhas Jain	M	Janata Party (Secular) Raj Narain	JNP(SR)	100	82018
+Madhya Pradesh	1980	270	Indore-I	GEN	Sheelkumar Nigam	M	Janata Party (Jp)	JNP(JP)	219	82018
+Madhya Pradesh	1980	270	Indore-I	GEN	Rajender Gupta	M	Independents	IND	247	82018
+Madhya Pradesh	1980	270	Indore-I	GEN	Om Mishra	M	Independents	IND	307	82018
+Madhya Pradesh	1980	270	Indore-I	GEN	Ram Babu Agarwal	M	Janata Party (Secular) - Ch. Charan Singh	JNP(SC)	365	82018
+Madhya Pradesh	1980	270	Indore-I	GEN	Uma Shankar Ramnath Awasthi	M	Independents	IND	4016	82018
+Madhya Pradesh	1980	270	Indore-I	GEN	Satyanarayan Sattan	M	Bharatiya Janata Party	BJP	17884	82018
+Madhya Pradesh	1980	270	Indore-I	GEN	Chandra Shekhar Vyas	M	Indian National Congress (I)	INC(I)	21968	82018
+Madhya Pradesh	1980	272	Indore-Iii	GEN	Abdulkuddus-A Salam	M	Independents	IND	27	72994
+Madhya Pradesh	1980	272	Indore-Iii	GEN	Khanderav Gayakward	M	Janata Party (Secular) Raj Narain	JNP(SR)	96	72994
+Madhya Pradesh	1980	272	Indore-Iii	GEN	Govind Batham	M	Independents	IND	162	72994
+Madhya Pradesh	1980	272	Indore-Iii	GEN	Sitaram Saraf	M	Janata Party (Jp)	JNP(JP)	212	72994
+Madhya Pradesh	1980	272	Indore-Iii	GEN	S. C. Sharma	M	Independents	IND	233	72994
+Madhya Pradesh	1980	272	Indore-Iii	GEN	Rajender Dharkar	M	Bharatiya Janata Party	BJP	16415	72994
+Madhya Pradesh	1980	272	Indore-Iii	GEN	Mahesh Joshi	M	Indian National Congress (I)	INC(I)	21717	72994
+Madhya Pradesh	1980	273	Indore-Iv	GEN	Satyanarayan Moolchand Thallore	M	Independents	IND	29	96128
+Madhya Pradesh	1980	273	Indore-Iv	GEN	Sewaram Galani	M	Independents	IND	51	96128
+Madhya Pradesh	1980	273	Indore-Iv	GEN	Murlidhar Kashilal Singhi	M	Independents	IND	142	96128
+Madhya Pradesh	1980	273	Indore-Iv	GEN	Ramnarayan Gupta	M	Independents	IND	220	96128
+Madhya Pradesh	1980	273	Indore-Iv	GEN	O. P. Sharma	M	Janata Party (Secular) - Ch. Charan Singh	JNP(SC)	330	96128
+Madhya Pradesh	1980	273	Indore-Iv	GEN	Mangilal Shinde	M	Independents	IND	340	96128
+Madhya Pradesh	1980	273	Indore-Iv	GEN	Ratan Patodi	M	Janata Party (Secular) Raj Narain	JNP(SR)	2513	96128
+Madhya Pradesh	1980	273	Indore-Iv	GEN	Shri Vallabh Sharma	M	Bharatiya Janata Party	BJP	21627	96128
+Madhya Pradesh	1980	273	Indore-Iv	GEN	Yagyadatt Sharma	M	Indian National Congress (I)	INC(I)	22761	96128
+Madhya Pradesh	1985	270	Indore-I	GEN	Mammu Khan Rasul Khan	M	Independent	IND	32	107311
+Madhya Pradesh	1985	270	Indore-I	GEN	Mohd. Amin Mohd. Shafique	M	Independent	IND	44	107311
+Madhya Pradesh	1985	270	Indore-I	GEN	Ramsingh	M	Independent	IND	44	107311
+Madhya Pradesh	1985	270	Indore-I	GEN	Israruddin Ansari	M	Independent	IND	48	107311
+Madhya Pradesh	1985	270	Indore-I	GEN	Ghanshyam Chauhan	M	Independent	IND	50	107311
+Madhya Pradesh	1985	270	Indore-I	GEN	Chandra Shekhar Sharma	M	Indian Congress (Socialist)	ICS	84	107311
+Madhya Pradesh	1985	270	Indore-I	GEN	Hazi Mohd. Rafique	M	Independent	IND	103	107311
+Madhya Pradesh	1985	270	Indore-I	GEN	Vishnu Prasad Kaushal	M	Janta Party	JNP	119	107311
+Madhya Pradesh	1985	270	Indore-I	GEN	Yogendra Joshi ( Baboo Bhaiya)	M	Independent	IND	125	107311
+Madhya Pradesh	1985	270	Indore-I	GEN	Pandit Madan Shukla	M	Independent	IND	131	107311
+Madhya Pradesh	1985	270	Indore-I	GEN	Sewanti Champalal	F	Independent	IND	133	107311
+Madhya Pradesh	1985	270	Indore-I	GEN	Gendalal Kashyap	M	Independent	IND	133	107311
+Madhya Pradesh	1985	270	Indore-I	GEN	Rajesh Sharma	M	Communist Party Of India	CPI	1125	107311
+Madhya Pradesh	1985	270	Indore-I	GEN	Satyanarayan Sattan	M	Bharatiya Janta Party	BJP	20368	107311
+Madhya Pradesh	1985	270	Indore-I	GEN	Lalit Jain	M	Indian National Congress	INC	28228	107311
+Madhya Pradesh	1985	272	Indore-Iii	GEN	Satish Birthare	M	Independent	IND	20	81974
+Madhya Pradesh	1985	272	Indore-Iii	GEN	Krishnakant Sitaram	M	Independent	IND	70	81974
+Madhya Pradesh	1985	272	Indore-Iii	GEN	Mukesh Wane	M	Independent	IND	119	81974
+Madhya Pradesh	1985	272	Indore-Iii	GEN	Pushpa Devi Pal	F	Independent	IND	128	81974
+Madhya Pradesh	1985	272	Indore-Iii	GEN	Noor Mohd. Subhan	M	Independent	IND	144	81974
+Madhya Pradesh	1985	272	Indore-Iii	GEN	Mohd. Afaque Abdul Aziz	M	Communist Party Of India	CPI	620	81974
+Madhya Pradesh	1985	272	Indore-Iii	GEN	Kutubbuddin Ansari	M	Janta Party	JNP	758	81974
+Madhya Pradesh	1985	272	Indore-Iii	GEN	Sumitra Mahajan	F	Bharatiya Janta Party	BJP	18150	81974
+Madhya Pradesh	1985	272	Indore-Iii	GEN	Mahesh Joshi	M	Indian National Congress	INC	23253	81974
+Madhya Pradesh	1985	273	Indore-Iv	GEN	Tarachand Gopichand	M	Independent	IND	19	123018
+Madhya Pradesh	1985	273	Indore-Iv	GEN	Ajeet Kumar Jain 'Patwa'	M	Independent	IND	22	123018
+Madhya Pradesh	1985	273	Indore-Iv	GEN	Ramesh Fhanse Rahi	M	Indian Congress (Socialist)	ICS	29	123018
+Madhya Pradesh	1985	273	Indore-Iv	GEN	Ravindrasingh Gaur	M	Independent	IND	32	123018
+Madhya Pradesh	1985	273	Indore-Iv	GEN	Nazar Husen Azad	M	Independent	IND	45	123018
+Madhya Pradesh	1985	273	Indore-Iv	GEN	Mohan Mama	M	Independent	IND	48	123018
+Madhya Pradesh	1985	273	Indore-Iv	GEN	Nathulal Lot	M	Independent	IND	56	123018
+Madhya Pradesh	1985	273	Indore-Iv	GEN	Metharam Tolani (Shivputra)	M	Independent	IND	65	123018
+Madhya Pradesh	1985	273	Indore-Iv	GEN	Lalit Nema	M	Independent	IND	84	123018
+Madhya Pradesh	1985	273	Indore-Iv	GEN	Maheshchandra Yadav	M	Independent	IND	111	123018
+Madhya Pradesh	1985	273	Indore-Iv	GEN	Prahalladdas Nema	M	Independent	IND	117	123018
+Madhya Pradesh	1985	273	Indore-Iv	GEN	Maheshkumar (Chuhababa)	M	Independent	IND	118	123018
+Madhya Pradesh	1985	273	Indore-Iv	GEN	Chandabai Moolchand	F	Independent	IND	173	123018
+Madhya Pradesh	1985	273	Indore-Iv	GEN	Vimalkumar Dagar	M	Independent	IND	188	123018
+Madhya Pradesh	1985	273	Indore-Iv	GEN	Rajkumar Jain	M	Independent	IND	241	123018
+Madhya Pradesh	1985	273	Indore-Iv	GEN	Masood Mansuri	M	Janta Party	JNP	406	123018
+Madhya Pradesh	1985	273	Indore-Iv	GEN	Rajesh Sharma	M	Communist Party Of India	CPI	957	123018
+Madhya Pradesh	1985	273	Indore-Iv	GEN	Shrivallabh Sharma	M	Bharatiya Janta Party	BJP	26021	123018
+Madhya Pradesh	1985	273	Indore-Iv	GEN	Nandlal Mata	M	Indian National Congress	INC	29872	123018
+Madhya Pradesh	1990	270	Indore-I	GEN	Raju	M	Independents	IND	21	158922
+Madhya Pradesh	1990	270	Indore-I	GEN	Nasir Mohd.	M	Independents	IND	28	158922
+Madhya Pradesh	1990	270	Indore-I	GEN	Babu Lal	M	Independents	IND	35	158922
+Madhya Pradesh	1990	270	Indore-I	GEN	Pandit Jagdev Jha	M	Independents	IND	49	158922
+Madhya Pradesh	1990	270	Indore-I	GEN	Abdul Shabir	M	Independents	IND	59	158922
+Madhya Pradesh	1990	270	Indore-I	GEN	Ramesh	M	Independents	IND	71	158922
+Madhya Pradesh	1990	270	Indore-I	GEN	Giraj Kalyandas Baheti	M	Independents	IND	95	158922
+Madhya Pradesh	1990	270	Indore-I	GEN	Ajit Kumar Jain Patawa	M	Independents	IND	95	158922
+Madhya Pradesh	1990	270	Indore-I	GEN	Said Khan Makhfree	M	Independents	IND	98	158922
+Madhya Pradesh	1990	270	Indore-I	GEN	Prahlad	M	Independents	IND	102	158922
+Madhya Pradesh	1990	270	Indore-I	GEN	Kailash Singh	M	Independents	IND	136	158922
+Madhya Pradesh	1990	270	Indore-I	GEN	Rama Prasad Puran Yadav	M	Independents	IND	152	158922
+Madhya Pradesh	1990	270	Indore-I	GEN	Haji Mohammad Rafique Haji Najir Mohammad	M	Independents	IND	159	158922
+Madhya Pradesh	1990	270	Indore-I	GEN	Bharat Bushan	M	Doordarshi Party	DDP	251	158922
+Madhya Pradesh	1990	270	Indore-I	GEN	Jasraj	M	Independents	IND	281	158922
+Madhya Pradesh	1990	270	Indore-I	GEN	Moinuddin Rajvi	M	Independents	IND	478	158922
+Madhya Pradesh	1990	270	Indore-I	GEN	Narayan Bhartiya	M	Communist Party Of India (Marxist)	CPM	583	158922
+Madhya Pradesh	1990	270	Indore-I	GEN	K. R. Yadav	M	Independents	IND	1163	158922
+Madhya Pradesh	1990	270	Indore-I	GEN	Satyanarayan Sattan	M	Bhartiya Janata Party	BJP	32440	158922
+Madhya Pradesh	1990	270	Indore-I	GEN	Lalit Jain	M	Independents	IND	36568	158922
+Madhya Pradesh	1990	272	Indore-Iii	GEN	Bashir Khan	M	Independents	IND	2	90477
+Madhya Pradesh	1990	272	Indore-Iii	GEN	Vimal Jain	F	Independents	IND	8	90477
+Madhya Pradesh	1990	272	Indore-Iii	GEN	Shekh Shama	M	Independents	IND	8	90477
+Madhya Pradesh	1990	272	Indore-Iii	GEN	Nasir Khan	M	Independents	IND	12	90477
+Madhya Pradesh	1990	272	Indore-Iii	GEN	Lalit Porwal	M	Independents	IND	17	90477
+Madhya Pradesh	1990	272	Indore-Iii	GEN	Mahesh Chandra Choudhary	M	Independents	IND	20	90477
+Madhya Pradesh	1990	272	Indore-Iii	GEN	Akbar Khalid Faruqui	M	Independents	IND	21	90477
+Madhya Pradesh	1990	272	Indore-Iii	GEN	Kanti Lal Sahu	M	Independents	IND	29	90477
+Madhya Pradesh	1990	272	Indore-Iii	GEN	Raju Mohan Singh	M	Independents	IND	30	90477
+Madhya Pradesh	1990	272	Indore-Iii	GEN	Samadhan Nayik Father Shripad Nayik	M	Independents	IND	33	90477
+Madhya Pradesh	1990	272	Indore-Iii	GEN	Himmanshu	M	Independents	IND	54	90477
+Madhya Pradesh	1990	272	Indore-Iii	GEN	Mahesh	M	Independents	IND	55	90477
+Madhya Pradesh	1990	272	Indore-Iii	GEN	Rajesh	M	Independents	IND	78	90477
+Madhya Pradesh	1990	272	Indore-Iii	GEN	Rang Nath	M	Doordarshi Party	DDP	104	90477
+Madhya Pradesh	1990	272	Indore-Iii	GEN	Praphulla	M	Independents	IND	138	90477
+Madhya Pradesh	1990	272	Indore-Iii	GEN	Devi Singh Nathu Thakur	M	Independents	IND	160	90477
+Madhya Pradesh	1990	272	Indore-Iii	GEN	Ikbal Bala Baig Singh	M	Janata Dal	JD	12123	90477
+Madhya Pradesh	1990	272	Indore-Iii	GEN	Mahesh Joshi	M	Indian National Congress	INC	17151	90477
+Madhya Pradesh	1990	272	Indore-Iii	GEN	Gopi Krishan Nema	M	Bhartiya Janata Party	BJP	21344	90477
+Madhya Pradesh	1990	273	Indore-Iv	GEN	Bashir Khan	M	Independents	IND	10	172330
+Madhya Pradesh	1990	273	Indore-Iv	GEN	Keval Kishore	M	Independents	IND	14	172330
+Madhya Pradesh	1990	273	Indore-Iv	GEN	Sita Ram	M	Independents	IND	15	172330
+Madhya Pradesh	1990	273	Indore-Iv	GEN	Santosh Goyal	M	Independents	IND	19	172330
+Madhya Pradesh	1990	273	Indore-Iv	GEN	Mulfatali	M	Independents	IND	20	172330
+Madhya Pradesh	1990	273	Indore-Iv	GEN	Niyamat Khan	M	Independents	IND	22	172330
+Madhya Pradesh	1990	273	Indore-Iv	GEN	Laxman Rao	M	Independents	IND	24	172330
+Madhya Pradesh	1990	273	Indore-Iv	GEN	Mohd. Ishaq	M	Independents	IND	25	172330
+Madhya Pradesh	1990	273	Indore-Iv	GEN	Kamal Jit Singh	M	Independents	IND	25	172330
+Madhya Pradesh	1990	273	Indore-Iv	GEN	Madan Parmaliya	M	Independents	IND	37	172330
+Madhya Pradesh	1990	273	Indore-Iv	GEN	Mohd. Husein	M	Independents	IND	39	172330
+Madhya Pradesh	1990	273	Indore-Iv	GEN	Sardar Mal Jain	M	Independents	IND	42	172330
+Madhya Pradesh	1990	273	Indore-Iv	GEN	Ratan Lal	M	Independents	IND	46	172330
+Madhya Pradesh	1990	273	Indore-Iv	GEN	Anil Banshidhar	M	Independents	IND	46	172330
+Madhya Pradesh	1990	273	Indore-Iv	GEN	Azaz Tapya	M	Independents	IND	48	172330
+Madhya Pradesh	1990	273	Indore-Iv	GEN	Jagdish Rai	M	Independents	IND	48	172330
+Madhya Pradesh	1990	273	Indore-Iv	GEN	Anil Kumar	M	Independents	IND	51	172330
+Madhya Pradesh	1990	273	Indore-Iv	GEN	Harish Gilke	M	Independents	IND	52	172330
+Madhya Pradesh	1990	273	Indore-Iv	GEN	Vimal Chand Mal Jain	M	Independents	IND	66	172330
+Madhya Pradesh	1990	273	Indore-Iv	GEN	Mohan Das Panthi	M	Independents	IND	94	172330
+Madhya Pradesh	1990	273	Indore-Iv	GEN	Parmanand Panthi	M	Independents	IND	108	172330
+Madhya Pradesh	1990	273	Indore-Iv	GEN	Mohd. Mushtak Asif	M	Bahujan Samaj Party	BSP	130	172330
+Madhya Pradesh	1990	273	Indore-Iv	GEN	Shekhar Chand	M	Doordarshi Party	DDP	155	172330
+Madhya Pradesh	1990	273	Indore-Iv	GEN	Harjinder Singh Chhabda	M	Independents	IND	157	172330
+Madhya Pradesh	1990	273	Indore-Iv	GEN	Ajit Kumar Jain 'Patwa'	M	Independents	IND	162	172330
+Madhya Pradesh	1990	273	Indore-Iv	GEN	Vimal Kumar	M	Independents	IND	295	172330
+Madhya Pradesh	1990	273	Indore-Iv	GEN	Chandra Shekhar Sharma 'Pappu'	M	Independents	IND	746	172330
+Madhya Pradesh	1990	273	Indore-Iv	GEN	Pradeep Jain 'Samata'	M	Independents	IND	844	172330
+Madhya Pradesh	1990	273	Indore-Iv	GEN	Manohar Dev	M	Independents	IND	2810	172330
+Madhya Pradesh	1990	273	Indore-Iv	GEN	Sher Singh	M	Janata Dal	JD	3356	172330
+Madhya Pradesh	1990	273	Indore-Iv	GEN	Ikbal Khan	M	Indian National Congress	INC	22811	172330
+Madhya Pradesh	1990	273	Indore-Iv	GEN	Kailash Vijayvargiya	M	Bhartiya Janata Party	BJP	48413	172330
+Madhya Pradesh	1993	270	Indore-I	GEN	Umashakar Naneria	M	Independents	IND	28	169977
+Madhya Pradesh	1993	270	Indore-I	GEN	Jagdish Singh Thakur	M	Independents	IND	32	169977
+Madhya Pradesh	1993	270	Indore-I	GEN	Gauri Shankar	M	Independents	IND	35	169977
+Madhya Pradesh	1993	270	Indore-I	GEN	Banshilal Prajapati	M	Independents	IND	46	169977
+Madhya Pradesh	1993	270	Indore-I	GEN	Raj Kumar	M	Independents	IND	48	169977
+Madhya Pradesh	1993	270	Indore-I	GEN	Chandu Jain	M	Independents	IND	52	169977
+Madhya Pradesh	1993	270	Indore-I	GEN	Motilal Joshit (Paliwal)	M	Independents	IND	55	169977
+Madhya Pradesh	1993	270	Indore-I	GEN	Mohanlal	M	Independents	IND	72	169977
+Madhya Pradesh	1993	270	Indore-I	GEN	Vijay Untwal	M	Shivsena	SHS	113	169977
+Madhya Pradesh	1993	270	Indore-I	GEN	Rajiv K. Pal	M	Samajwadi Party	SP	116	169977
+Madhya Pradesh	1993	270	Indore-I	GEN	Suresh Herode	M	Republican Party Of India (Democratic)	RPI(D)	135	169977
+Madhya Pradesh	1993	270	Indore-I	GEN	Lalchand Hastimal	M	Independents	IND	153	169977
+Madhya Pradesh	1993	270	Indore-I	GEN	Bherulal	M	Independents	IND	173	169977
+Madhya Pradesh	1993	270	Indore-I	GEN	Om Gupta	M	Independents	IND	196	169977
+Madhya Pradesh	1993	270	Indore-I	GEN	Rajesh Yadav	M	Bahujan Samaj Party	BSP	205	169977
+Madhya Pradesh	1993	270	Indore-I	GEN	Ajit Kumar Jain (Patwa)	M	Independents	IND	221	169977
+Madhya Pradesh	1993	270	Indore-I	GEN	Narendra Alija	M	Independents	IND	224	169977
+Madhya Pradesh	1993	270	Indore-I	GEN	Bharat Bhushan	M	Doordarshi Party	DDP	258	169977
+Madhya Pradesh	1993	270	Indore-I	GEN	Choudhary Niwaranath	M	Janta Dal	JD	275	169977
+Madhya Pradesh	1993	270	Indore-I	GEN	Lalit Jain	M	Indian National Congress	INC	42216	169977
+Madhya Pradesh	1993	270	Indore-I	GEN	Lalchand Murlidhar Mittal	M	Bhartiya Janta Party	BJP	50576	169977
+Madhya Pradesh	1993	272	Indore-Iii	GEN	Shaikh Shabbir Hussain	M	Independents	IND	10	76292
+Madhya Pradesh	1993	272	Indore-Iii	GEN	Mukesh	M	Independents	IND	11	76292
+Madhya Pradesh	1993	272	Indore-Iii	GEN	Naseer Khan	M	Independents	IND	11	76292
+Madhya Pradesh	1993	272	Indore-Iii	GEN	Manjeet Singh	M	Independents	IND	13	76292
+Madhya Pradesh	1993	272	Indore-Iii	GEN	Rafique Khan	M	Independents	IND	14	76292
+Madhya Pradesh	1993	272	Indore-Iii	GEN	Abdul Sattar	M	Independents	IND	15	76292
+Madhya Pradesh	1993	272	Indore-Iii	GEN	Hanuman Prasad	M	Independents	IND	16	76292
+Madhya Pradesh	1993	272	Indore-Iii	GEN	Israr Nashtari (Ansari)	M	Independents	IND	18	76292
+Madhya Pradesh	1993	272	Indore-Iii	GEN	Samadhan	M	Kisan Mozdoor Gaon Raj	KMGR	22	76292
+Madhya Pradesh	1993	272	Indore-Iii	GEN	Om Prakash	M	Independents	IND	28	76292
+Madhya Pradesh	1993	272	Indore-Iii	GEN	Gorishanker	M	Independents	IND	34	76292
+Madhya Pradesh	1993	272	Indore-Iii	GEN	Raghuveer Singh	M	Independents	IND	43	76292
+Madhya Pradesh	1993	272	Indore-Iii	GEN	Basant Kumar	M	Independents	IND	43	76292
+Madhya Pradesh	1993	272	Indore-Iii	GEN	Om Gupta	M	Independents	IND	49	76292
+Madhya Pradesh	1993	272	Indore-Iii	GEN	Tarun Bhonsle	M	Independents	IND	52	76292
+Madhya Pradesh	1993	272	Indore-Iii	GEN	Surendra Kumar	M	Independents	IND	58	76292
+Madhya Pradesh	1993	272	Indore-Iii	GEN	Mahammad Hussain	M	Independents	IND	67	76292
+Madhya Pradesh	1993	272	Indore-Iii	GEN	Anwar Khan Yusuf Khan	M	Bahujan Samaj Party	BSP	75	76292
+Madhya Pradesh	1993	272	Indore-Iii	GEN	Mahesh Chironjilal	M	Doordarshi Party	DDP	77	76292
+Madhya Pradesh	1993	272	Indore-Iii	GEN	Ravindra	M	Shivsena	SHS	78	76292
+Madhya Pradesh	1993	272	Indore-Iii	GEN	Bhimrao Kharate	M	Republican Party Of India (Democratic)	RPI(D)	105	76292
+Madhya Pradesh	1993	272	Indore-Iii	GEN	Anil Trivedi	M	Janta Dal	JD	1270	76292
+Madhya Pradesh	1993	272	Indore-Iii	GEN	Anwar Khan	M	Indian National Congress	INC	20888	76292
+Madhya Pradesh	1993	272	Indore-Iii	GEN	Gopal Krishan Nema	M	Bhartiya Janta Party	BJP	30602	76292
+Madhya Pradesh	1993	273	Indore-Iv	GEN	Hari Om	M	Independents	IND	16	177927
+Madhya Pradesh	1993	273	Indore-Iv	GEN	"Mohd, Hanif Modh. Daudi"	M	Independents	IND	21	177927
+Madhya Pradesh	1993	273	Indore-Iv	GEN	Surendra Singh	M	Independents	IND	28	177927
+Madhya Pradesh	1993	273	Indore-Iv	GEN	Shyam Chakradhar	M	Independents	IND	29	177927
+Madhya Pradesh	1993	273	Indore-Iv	GEN	Subhash Chandra	M	Independents	IND	36	177927
+Madhya Pradesh	1993	273	Indore-Iv	GEN	Vinod	M	Independents	IND	56	177927
+Madhya Pradesh	1993	273	Indore-Iv	GEN	Anil	M	Independents	IND	56	177927
+Madhya Pradesh	1993	273	Indore-Iv	GEN	Shyam Soni (Kaka)	M	Independents	IND	60	177927
+Madhya Pradesh	1993	273	Indore-Iv	GEN	Parmanand Tolani	M	Independents	IND	63	177927
+Madhya Pradesh	1993	273	Indore-Iv	GEN	Gorishankaar	M	Independents	IND	67	177927
+Madhya Pradesh	1993	273	Indore-Iv	GEN	Mahesh Jaiswal	M	Independents	IND	74	177927
+Madhya Pradesh	1993	273	Indore-Iv	GEN	Narayan Dutt Mishra	M	Independents	IND	82	177927
+Madhya Pradesh	1993	273	Indore-Iv	GEN	Manik Gajkeshwar	M	Independents	IND	84	177927
+Madhya Pradesh	1993	273	Indore-Iv	GEN	Roopchand	M	Independents	IND	87	177927
+Madhya Pradesh	1993	273	Indore-Iv	GEN	Bhagwandas Zanke	M	Republican Party Of India	RPI	143	177927
+Madhya Pradesh	1993	273	Indore-Iv	GEN	Nand Kishore Ameria	M	Independents	IND	145	177927
+Madhya Pradesh	1993	273	Indore-Iv	GEN	Yashwant	M	Independents	IND	175	177927
+Madhya Pradesh	1993	273	Indore-Iv	GEN	Dashrath	M	Janta Dal	JD	192	177927
+Madhya Pradesh	1993	273	Indore-Iv	GEN	Krishna	F	Doordarshi Party	DDP	208	177927
+Madhya Pradesh	1993	273	Indore-Iv	GEN	Jaipal	M	Independents	IND	238	177927
+Madhya Pradesh	1993	273	Indore-Iv	GEN	Ramu	M	Bahujan Samaj Party	BSP	343	177927
+Madhya Pradesh	1993	273	Indore-Iv	GEN	Mohd. Ramjan	M	Independents	IND	437	177927
+Madhya Pradesh	1993	273	Indore-Iv	GEN	Ujagar Singh	M	Indian National Congress	INC	42215	177927
+Madhya Pradesh	1993	273	Indore-Iv	GEN	Laxman Singh Gaud	M	Bhartiya Janta Party	BJP	70324	177927
+Madhya Pradesh	2003	180	Indore-I	GEN	Ajit Kumar Jain Patwa	M	Independent	IND	340	230252
+Madhya Pradesh	2003	180	Indore-I	GEN	Natwardas Pareekh	M	Independent	IND	693	230252
+Madhya Pradesh	2003	180	Indore-I	GEN	Ashfaq Husain	M	Samajwadi Party	SP	872	230252
+Madhya Pradesh	2003	180	Indore-I	GEN	Baliram Depale Ballu Bhaiya	M	Independent	IND	1259	230252
+Madhya Pradesh	2003	180	Indore-I	GEN	Ramlal Yadav Bhallu Bhaiyya	M	Indian National Congress	INC	57886	230252
+Madhya Pradesh	2003	180	Indore-I	GEN	Miss Usha Thakur	F	Bharatiya Janata Party	BJP	85346	230252
+Madhya Pradesh	2003	182	Indore-Iii	GEN	Gori Shankar	M	Independent	IND	133	76187
+Madhya Pradesh	2003	182	Indore-Iii	GEN	Mohammad Iliyas Khan	M	Nationalist Congress Party	NCP	134	76187
+Madhya Pradesh	2003	182	Indore-Iii	GEN	Mohd. Salam Multani Bhai	M	Samajwadi Party	SP	222	76187
+Madhya Pradesh	2003	182	Indore-Iii	GEN	Sudhanshu Sureshchand	M	Independent	IND	273	76187
+Madhya Pradesh	2003	182	Indore-Iii	GEN	Nasir Khan	M	Bahujan Samaj Party	BSP	330	76187
+Madhya Pradesh	2003	182	Indore-Iii	GEN	Rajendra Shukla	M	Bharatiya Janata Party	BJP	24305	76187
+Madhya Pradesh	2003	182	Indore-Iii	GEN	Ashwin Joshi	M	Indian National Congress	INC	29267	76187
+Madhya Pradesh	2003	183	Indore-Iv	GEN	Indar Singh Tomar	M	Independent	IND	142	266545
+Madhya Pradesh	2003	183	Indore-Iv	GEN	Buddha P.C Raypure	M	Republican Party Of India(A)	RPI(A)	209	266545
+Madhya Pradesh	2003	183	Indore-Iv	GEN	Tejendra Singh Bhatia	M	Independent	IND	359	266545
+Madhya Pradesh	2003	183	Indore-Iv	GEN	Anand Sakte	M	Independent	IND	437	266545
+Madhya Pradesh	2003	183	Indore-Iv	GEN	Ramswaroop Mantri	M	Samajwadi Party	SP	537	266545
+Madhya Pradesh	2003	183	Indore-Iv	GEN	Lalit Varma	M	Independent	IND	706	266545
+Madhya Pradesh	2003	183	Indore-Iv	GEN	Smt. Binduraj Modi	F	Rashtriya Janata Dal	RJD	765	266545
+Madhya Pradesh	2003	183	Indore-Iv	GEN	Hiralal Hiroo	M	Independent	IND	1023	266545
+Madhya Pradesh	2003	183	Indore-Iv	GEN	Ajay Narayan Sitlani	M	Nationalist Congress Party	NCP	1232	266545
+Madhya Pradesh	2003	183	Indore-Iv	GEN	Lalita Jain	M	Indian National Congress	INC	61390	266545
+Madhya Pradesh	2003	183	Indore-Iv	GEN	Laxman Singh Gaur	M	Bharatiya Janata Party	BJP	107015	266545
+Madhya Pradesh	2008	204	Indore-1	GEN	Rakesh Bhardwaj	M		IND	243	195401
+Madhya Pradesh	2008	204	Indore-1	GEN	Dinesh Choudhari	M		IND	246	195401
+Madhya Pradesh	2008	204	Indore-1	GEN	Ajit Kumar Jain Patwa	M		IND	356	195401
+Madhya Pradesh	2008	204	Indore-1	GEN	Rajesh Kushwah	M		IND	759	195401
+Madhya Pradesh	2008	204	Indore-1	GEN	Roshan Yadav Kadvaram	M		SP	1058	195401
+Madhya Pradesh	2008	204	Indore-1	GEN	Ayodhaya Prasad Kushwah	M		BJSH	1083	195401
+Madhya Pradesh	2008	204	Indore-1	GEN	Pandit Krishana Vidhyasagar Upadhiya	M		BSP	1618	195401
+Madhya Pradesh	2008	204	Indore-1	GEN	Sanjay Shukla	M		INC	52864	195401
+Madhya Pradesh	2008	204	Indore-1	GEN	Sudarshan Gupta	M		BJP	61047	195401
+Madhya Pradesh	2008	206	Indore-3	GEN	Kashi Nath Mishra	M		IND	151	145430
+Madhya Pradesh	2008	206	Indore-3	GEN	Komal Singh Narvariya	M		BJSH	316	145430
+Madhya Pradesh	2008	206	Indore-3	GEN	Dr. Sadhana Bhatt	F		SP	320	145430
+Madhya Pradesh	2008	206	Indore-3	GEN	Vishal Sudama Sharma	M		IND	678	145430
+Madhya Pradesh	2008	206	Indore-3	GEN	Iftikhar Munna Ansari(Munna Bhai)	M		BSP	4658	145430
+Madhya Pradesh	2008	206	Indore-3	GEN	Gopikrishna Nema	M		BJP	44598	145430
+Madhya Pradesh	2008	206	Indore-3	GEN	Ashwin Joshi	M		INC	45000	145430
+Madhya Pradesh	2008	207	Indore-4	GEN	Gajendra Saini Gaur	M		IND	70	167750
+Madhya Pradesh	2008	207	Indore-4	GEN	Mohammad Yusuf Raja	M		IND	123	167750
+Madhya Pradesh	2008	207	Indore-4	GEN	Kamal Vadhwani	M		IND	127	167750
+Madhya Pradesh	2008	207	Indore-4	GEN	Anita Dvivedi	F		SHS	161	167750
+Madhya Pradesh	2008	207	Indore-4	GEN	Patel Rakesh Kumar Lot	M		IND	277	167750
+Madhya Pradesh	2008	207	Indore-4	GEN	Samadhan Shri Pal Naik	M		IND	560	167750
+Madhya Pradesh	2008	207	Indore-4	GEN	Om Jhawar	M		IND	639	167750
+Madhya Pradesh	2008	207	Indore-4	GEN	Dr. Ratan Jaiswal	M		BSP	1048	167750
+Madhya Pradesh	2008	207	Indore-4	GEN	Govind Manghani(Gop)	M		INC	35877	167750
+Madhya Pradesh	2008	207	Indore-4	GEN	Malini Laxman Singh Gaur	F		BJP	63920	167750
