@@ -1,4 +1,5 @@
-class QueueUsingLinkedList { 
+import java.util.Scanner;
+class Queue { 
     private class Node { 
     	int key; 
     	Node next; 
@@ -11,7 +12,7 @@ class QueueUsingLinkedList {
 
 	Node front, rear; 
 
-	public QueueUsingLinkedList(){ 
+	public Queue(){ 
 		this.front = this.rear = null; 
 	} 
 	
@@ -60,53 +61,59 @@ class QueueUsingLinkedList {
 	}
 } 
 
-public class Main { 
-	static void move(char city[][], boolean visited[][]){
-	    QueueUsingLinkedList x = new QueueUsingLinkedList(); 
-		QueueUsingLinkedList y = new QueueUsingLinkedList();
+class MoveAroundCity{ 
+		static Queue x = new Queue(); 
+		static Queue y = new Queue();
 		
-		for (int i=0 ; i<10; i++){
-            for (int j=0 ; j<10; j++){
+	static void move(char city[][], boolean visited[][]){
+	    int n=4;
+		for (int i=0 ; i<n; i++){
+            for (int j=0 ; j<n; j++){
                 if(city[i][j]=='t'){
                     break;
                 }
-                else if(i!=n-1 and city[i][j]!='t' and visited[i][j]==false){
+                else if(i!=n-1 && city[i][j]!='x' && visited[i][j]==false){
                     x.enqueue(i);
                     y.enqueue(j);
                     visited[i][j]=true;
                 }
-                else if(j!=n-1 and city[i][j]!='t' and visited[i][j]==false){
+                else if(j!=n-1 && city[i][j]!='x' && visited[i][j]==false){
                     x.enqueue(i);
                     y.enqueue(j);
                     visited[i][j]=true;
                 }
-                else if(i!=0 and city[i][j]!='t' and visited[i][j]==false){
+                else if(i!=0 && city[i][j]!='x' && visited[i][j]==false){
                     x.enqueue(i);
                     y.enqueue(j);
                     visited[i][j]=true;
                 }
-                else if(j!=0 and city[i][j]!='t' and visited[i][j]==false){
+                else if(j!=0 && city[i][j]!='x' && visited[i][j]==false){
                     x.enqueue(i);
                     y.enqueue(j);
                     visited[i][j]=true;
                 }
-                x.dequeue();
-                y.dequeue();
-            }
-        }
+			}
+		}
+		x.dequeue();
+		y.dequeue();
 	}
 	public static void main(String[] args){
-        Scanner keyboard = new Scanner(System.in);
-        char[][] city = new char[10][10];
-        boolean[][]  visited = new boolean[10][10];
+		Scanner keyboard = new Scanner(System.in);
+		int size = 4;
+        char[][] city = new char[size][size];
+        boolean[][]  visited = new boolean[size][size];
     
-        for (int i=0 ; i<10; i++){
-            for (int j=0 ; j<10; j++){
-                city[i][j]=keyboard.nextChar();
+        for (int i=0 ; i<size; i++){
+            for (int j=0 ; j<size; j++){
+				city[i][j]=keyboard.next().charAt(0);	
                 visited[i][j]=false;
             }
         }
         
-        move(city,visited);   
+		move(city,visited); 
+		x.display();
+		y.display();
+		
+		keyboard.close();  
 	} 
 } 
