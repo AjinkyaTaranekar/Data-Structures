@@ -77,7 +77,7 @@ public class StackUsingLinkedList{
        
         Scanner keyboard = new Scanner(System.in);
         Stack stack = new Stack();
-        System.out.println("Welcome to Stack Program Using Array");
+        System.out.println("Welcome to Stack Program Us7ing Array");
         
         System.out.println("\nEnter elements of stack");
         System.out.println("Break using -1");
